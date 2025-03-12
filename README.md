@@ -1,51 +1,28 @@
-#Electric Vehicle Market Analysis Visualization
+# Power BI Project Overview:
 
-Project Overview
+This Power BI project focuses on analyzing survey data collected from respondents across different demographics and professional backgrounds. The goal is to visualize insights from the survey regarding salary, work-life balance, programming language preferences, and overall job satisfaction.
 
-This project provides a visualization of the electric vehicle (EV) market using Tableau. The dashboard includes key performance indicators (KPIs) and various visualizations to analyze trends in EV adoption, model popularity, and geographical distribution.
+Dataset Description:
 
-Data Insights
+The dataset consists of the following key attributes:
 
-The project focuses on the following insights:
+Age: Age of the respondent.
+Salary: Annual salary of the respondent.
+Country: Location of the respondent.
+Gender: Gender identity of the respondent.
+Programming Language: Preferred programming language(s) used by the respondent.
+Ratings: Various ratings given by respondents, including:
+Salary Satisfaction rating
+Work-life Balance rating
+Job Satisfaction rating
 
-Total Vehicles: Understanding the overall landscape of electric vehicles, including Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs).
+# Visualization & Insights:
 
-Average Electric Range: Assessing technological advancements by analyzing the average electric range.
+Using Power BI, I created an interactive dashboard that includes the following key visualizations:
 
-Total BEV Vehicles & % of Total BEVs: Determining the proportion of fully electric vehicles in the dataset.
 
-Total PHEV Vehicles & % of Total PHEVs: Identifying the market share of plug-in hybrid models.
+A bar chart showing the distribution of salary by programming language.
+A pie chart representing the gender distribution by salary.
+Cards showing survey count., average salary.
 
-Visualizations
 
-The Tableau dashboard includes the following charts:
-
-Total Vehicles by Model Year (2010 Onwards)
-
-Visualization: Line/Area Chart
-
-Description: Shows the distribution of EVs over time, highlighting growth trends.
-
-Total Vehicles by State
-
-Visualization: Map Chart
-
-Description: Displays the geographic distribution of EVs across different states.
-
-Top 10 Total Vehicles by Make
-
-Visualization: Bar Chart
-
-Description: Highlights the top 10 EV manufacturers based on total vehicles.
-
-Total Vehicles by CAFV Eligibility
-
-Visualization: Pie/Donut Chart
-
-Description: Illustrates the proportion of EVs eligible for Clean Alternative Fuel Vehicle (CAFV) incentives.
-
-Top 10 Total Vehicles by Model
-
-Visualization: Tree Map
-
-Description: Showcases the top 10 EV models, reflecting consumer preferences.
